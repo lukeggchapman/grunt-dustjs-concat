@@ -1,0 +1,33 @@
+{
+  "name": "dustjs-concat",
+  "version": "0.0.1",
+  "description": "Dust JS compiler and concatinator for creating a single file of templates to load into a client side app.",
+  "repository": "",
+  "author": {
+    "name": "Luke Chapman",
+    "email": "",
+    "url": ""
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt": "~0.4.2",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "dustjs-linkedin": "^2.5.1"
+  }
+}
