@@ -1,5 +1,5 @@
 {
-  "name": "dustjs-concat",
+  "name": "grunt-dustjs-concat",
   "version": "0.0.1",
   "description": "Dust JS compiler and concatinator for creating a single file of templates to load into a client side app.",
   "repository": "",

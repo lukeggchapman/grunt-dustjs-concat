@@ -1,4 +1,4 @@
-# dustjs-concat
+# grunt-dustjs-concat
 
 > Dust JS compiler and concatinator for creating a single file of templates to load into a client side app.
 
@@ -8,13 +8,13 @@ This plugin requires Grunt.
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install dustjs-concat --save-dev
+npm install grunt-dustjs-concat --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('dustjs-concat');
+grunt.loadNpmTasks('grunt-dustjs-concat');
 ```
 
 ## The "dustjs_concat" task

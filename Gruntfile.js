@@ -1,5 +1,5 @@
 /*
- * dustjs-concat
+ * grunt-dustjs-concat
  *
  *
  * Copyright (c) 2014 Luke Chapman
