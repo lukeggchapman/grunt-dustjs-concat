@@ -41,7 +41,7 @@ module.exports = function (grunt) {
                     }
                 }).map(function (file) {
                     // Read file source.
-                    return 'dust.loadSource(' + dust.compile(grunt.file.read(file.path), file.name) + ')';
+                    return dust.compile(grunt.file.read(file.path), file.name);
                 }).join(grunt.util.normalizelf(options.separator));
 
             // Handle options.
