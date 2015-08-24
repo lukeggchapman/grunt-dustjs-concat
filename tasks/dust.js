@@ -44,8 +44,11 @@ module.exports = function (grunt) {
                     return dust.compile(grunt.file.read(file.path), file.name);
                 }).join(grunt.util.normalizelf(options.separator));
 
-            // Handle options.
-            src = 'define([\'dust\'], function (dust) {\n' + src + '\n});';
+            if (options.node) {
+                src = 'module.exports = function (dust) {\n' + src + '\n}';
+            } else {
+                src = 'define([\'dust\'], function (dust) {\n' + src + '\n});';
+            }
 
             // Write the destination file.
             grunt.file.write(file.dest, src);
